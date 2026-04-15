@@ -1,0 +1,104 @@
+body {
+    background: #f4f6fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+.login-container {
+    background: #fff;
+    padding: 2.5rem 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.login-container h2 {
+    margin: 0 0 1rem 0;
+    text-align: center;
+    color: #222;
+}
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 0.8rem;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+.login-container button.login-btn {
+    width: 100%;
+    padding: 0.7rem;
+    background: #22c55e;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+    transition: background 0.2s;
+}
+ .login-container button.login-btn:hover {
+    background: #16a34a;
+}
+.divider {
+    text-align: center;
+    color: #aaa;
+    margin: 0.5rem 0;
+    position: relative;
+}
+.divider:before, .divider:after {
+    content: '';
+    display: inline-block;
+    width: 40%;
+    height: 1px;
+    background: #e5e7eb;
+    vertical-align: middle;
+    margin: 0 0.5em;
+}
+.social-btn {
+    width: 100%;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.7em;
+    justify-content: center;
+    transition: background 0.2s, color 0.2s;
+}
+.google {
+    background: #fff;
+    color: #222;
+    border: 1px solid #d1d5db;
+}
+.google:hover {
+    background: #f1f5f9;
+}
+.facebook {
+    background: #1877f2;
+    color: #fff;
+}
+.facebook:hover {
+    background: #145db2;
+}
+.github {
+    background: #222;
+    color: #fff;
+}
+.github:hover {
+    background: #444;
+}
+.social-icon {
+    width: 1.2em;
+    height: 1.2em;
+    vertical-align: middle;
+}
